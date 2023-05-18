@@ -1,0 +1,31 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kietnguyen161/nodejs_blog1.git"
+  },
+  "keywords": [
+    "blog",
+    "kietnguyen",
+    "kietnguyenblog"
+  ],
+  "author": "kietnguyen161",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kietnguyen161/nodejs_blog1/issues"
+  },
+  "homepage": "https://github.com/kietnguyen161/nodejs_blog1#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
