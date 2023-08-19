@@ -9,7 +9,7 @@ pipeline {
         stage('Run install') {
             steps {
                 // Run the npm run local command
-                sh 'npm i'
+                // sh 'npm i'
             }
         }
         stage('SSH server') {
